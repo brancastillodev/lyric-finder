@@ -1,4 +1,4 @@
-# Lyric Finder 🎵
+# Canta 🎵
 
 Reconoce canciones que suenan en tu computadora y muestra la letra automáticamente.
 
@@ -17,22 +17,22 @@ sudo apt install songrec
 npm install -g glyrics
 
 # Clonar e instalar
-git clone https://github.com/TU_USUARIO/lyric-finder.git
+git clone https://github.com/brancastillodev/lyric-finder.git
 cd lyric-finder
-chmod +x lyric-finder.sh
+chmod +x canta.sh
 
 # Copiar a una ubicación en tu PATH
-sudo cp lyric-finder.sh /usr/local/bin/lyric-finder
+sudo cp canta.sh /usr/local/bin/canta
 ```
 
 ## Uso
 
 ```bash
 # Ejecutar
-lyric-finder
+canta
 
 # O crear un alias en ~/.bashrc
-alias lyrics='lyric-finder'
+alias canta='canta'
 ```
 
 ## Cómo funciona
